@@ -15,27 +15,27 @@ app.get("/css", function (req, res) {
     res.sendFile(path.join(__dirname, "../index.css"));
 });
 
-app.get("/", function (req, res) {
+app.get("/2", function (req, res) {
     res.sendFile(path.join(__dirname, "../index2.html"));
 });
 
-app.get("/", function (req, res) {
+app.get("/3", function (req, res) {
     res.sendFile(path.join(__dirname, "../index3.html"));
 });
 
-app.get("/", function (req, res) {
+app.get("/4", function (req, res) {
     res.sendFile(path.join(__dirname, "../index4.html"));
 });
 
-app.get("/css", function (req, res) {
+app.get("/2css", function (req, res) {
     res.sendFile(path.join(__dirname, "../index2.css"));
 });
 
-app.get("/css", function (req, res) {
+app.get("/3css", function (req, res) {
     res.sendFile(path.join(__dirname, "../index3.css"));
 });
 
-app.get("/css", function (req, res) {
+app.get("/4css", function (req, res) {
     res.sendFile(path.join(__dirname, "../index4.css"));
 });
 
