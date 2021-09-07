@@ -11,6 +11,10 @@ main {
     text-align: top;
 }
 
+h1 {
+    text-align: bottom;
+}
+
 form {
     display: inline-block;
 }
