@@ -1,0 +1,16 @@
+html { 
+    background: url(https://images.pexels.com/photos/1640775/pexels-photo-1640775.jpeg?cs=srgb&dl=pexels-ella-olsson-1640775.jpg&fm=jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+main {
+    text-align: center;
+    text-align: top;
+}
+
+form {
+    display: inline-block;
+}
