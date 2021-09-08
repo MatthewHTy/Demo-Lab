@@ -1,16 +1,32 @@
+/* 
+* {
+    box-sizing: border-box;
+} */
+
 html { 
-    background: url(https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed; 
+    background: url(https://images.pexels.com/photos/4230629/pexels-photo-4230629.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
 
-main {
+ main {
     text-align: center;
     text-align: top;
 }
 
 form {
     display: inline-block;
+    text-align: center;
+} 
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-weight: bold;
+    background: rgb(0, 0, 0);
+    color: white;
+    margin-left: 20px;
+    vertical-align: middle;
 }

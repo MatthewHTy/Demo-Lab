@@ -2,7 +2,7 @@ let entry = document.querySelector(`form`);
     entry.addEventListener(`submit`, addIngredient);
 const message = document.querySelector('#message')
 
-console.log("Hello World")
+// console.log("Hello World")
 
 let inputField = document.querySelector('input');
 function addIngredient(evt) {

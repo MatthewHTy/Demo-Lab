@@ -14,3 +14,14 @@ main {
 form {
     display: inline-block;
 }
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-weight: bold;
+    background: rgb(0, 0, 0);
+    color: white;
+    margin-left: 50px;
+    vertical-align: middle;
+}
