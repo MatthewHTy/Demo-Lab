@@ -1,8 +1,3 @@
-/* 
-* {
-    box-sizing: border-box;
-} */
-
 html { 
     background: url(https://images.pexels.com/photos/4230629/pexels-photo-4230629.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -20,6 +15,7 @@ form {
     display: inline-block;
     text-align: center;
 } 
+
 button {
     border: none;
     border-radius: 10px;
