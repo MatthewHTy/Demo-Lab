@@ -25,3 +25,16 @@ button {
     margin-left: 50px;
     vertical-align: middle;
 }
+
+.container div {
+    padding: 1%;
+    box-sizing: border-box;
+    min-height: 1px;
+}
+
+
+.center-col {
+    background-color: #f4f4f4;
+    display: inline-block;  
+    width: 28%;
+}

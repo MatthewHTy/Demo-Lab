@@ -40,7 +40,7 @@ html {
         min-height: 600px;
     }
     .left-col, .right-col {
-        background-color: #f4f4f4;
+        background-color: #ffffff;
         width: 33.333%;
         float: left;
     }

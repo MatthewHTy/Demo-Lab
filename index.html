@@ -25,10 +25,37 @@
                 <button id="btnmealpreplist">Meal Prep List</button>
             </form>  
 
-        <h1>Meal Planner</h1>
+            <h1>Welcome to Meal Planner!</h1>
+            <div class="container">
+                <div class="center-col"></class>
+                    <p>
+                        
+                Hello! Meal Planner is an informational website helping users with their meal preparation. Please go through 'How It Works', 'Diet Guide' and 'Meal Prep List' in that order, to learn more.
+            </p>
+            <p>
+
+                Click here for a random motivation quote:
+
+                <button id="gymbroButton">Meal Quotes</button>
+
+                <script> 
+                  document.getElementById("gymbroButton").onclick = function () {
+                        axios.get("http://localhost:5504/api/gymbro")
+                        .then(function (response) {
+                  const data = response.data;
+                        alert(data);
+                });
+          };
+                </script>
+
+
+            </p>
+            </div>
+        </div>
 
     </main>
     <script src="./index.js"></script>
     <script src="/js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </body>
 </html>
