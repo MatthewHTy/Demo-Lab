@@ -1,5 +1,5 @@
 html { 
-    background: url(https://images.pexels.com/photos/4022097/pexels-photo-4022097.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat center center fixed; 
+    background: url(https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1231&q=80) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -28,4 +28,23 @@ button {
     color: white;
     margin-left: 50px;
     vertical-align: middle;
+}
+
+p {
+    display: inline-block;
+    margin: auto;
+    width: 100px;
+    padding: 5px
+}
+
+.container div {
+    padding: 1%;
+    box-sizing: border-box;
+    min-height: 1px;
+}
+
+.center-col {
+    display: inline-block;  
+    width: 28%;
+    /* float: left; */
 }
