@@ -36,9 +36,9 @@ function crossOffIngredient(evt){
     evt.target.classlist.toggle('checked');
 
     if (evt.target.classList.toggle('checked') === true) {
-        message.textContent = evt.target.textContent + 'Ingredient used!'
+        message.textContent = evt.target.textContent + 'Recipe used!'
     } else {
-        message.textContent = evt.target.textContent + 'Ingredient added back!'
+        message.textContent = evt.target.textContent + 'Recipe added back!'
     }
     revealMessage()
 }
